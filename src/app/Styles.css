@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    background: #ff8560;
+}
+    
+label{
+    font-size: small;
+    margin-top: 1rem;
+}
+    
+input[type=text], input[type=password]{
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 280px;
+}
+    
+.btn{
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    border: none;
+    padding: 10px;
+    background: #ff3300;
+    color: #fff;
+    cursor: pointer;
+}
+    
+.btn-container{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    margin-top: 1rem;
+
+}
+    
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    background: #fff;
+}
+    
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: flex-start;
+}
+    
+.progress-bar{
+    position: relative;
+    margin-bottom: 0.5rem;
+    border-radius: 2px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 0.35rem;
+    background: #fff;
+}
+    
+.progress{
+    width: 33.3%;
+    height: 0.35rem;
+    background: #006633;
+}
